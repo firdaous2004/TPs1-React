@@ -1,0 +1,32 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 60%;
+  }
+  
+  .card-actions {
+    display: flex;
+    justify-content: space-between;
+
+    
+  }
+  .card-actions button{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #da0aaa;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+  }
+  .card-actions button:hover {
+    background-color: #666;
+    border: rgb(9, 9, 9);
+  }

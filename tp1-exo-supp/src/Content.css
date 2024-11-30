@@ -1,0 +1,8 @@
+.content {
+    text-align: center;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between; /* Ajuste l'espacement entre les cartes */
+  }

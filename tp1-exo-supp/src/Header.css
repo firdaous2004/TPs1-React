@@ -1,0 +1,64 @@
+/* Style général du header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Boutons */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #da0aaa;
+    color: #fff;
+    border: black;
+    border: "2px";
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: space-between;
+  }
+  
+  .buttons button:hover {
+    background-color: #666;
+    border: rgb(9, 9, 9);
+
+  }

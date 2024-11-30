@@ -1,0 +1,54 @@
+// PHT.js
+import React from 'react';
+
+class PHT extends React.Component {
+  render() {
+    return (
+      <div>
+        <label htmlFor="pht">Prix Hors Tax</label>
+        <input type="text" id="pht" onChange={this.props.onChange} />
+      </div>
+    );
+  }
+}
+
+export default PHT;
+// TVA.js
+import React from 'react';
+
+class TVA extends React.Component {
+  render() {
+    return (
+      <div>
+        <label htmlFor="tva">Taux TVA :</label>
+        <input type="text" id="tva" onChange={this.props.onChange} />
+      </div>
+    );
+  }
+}
+
+export default TVA;
+
+// Buttons.js
+import React from 'react';
+
+class Buttons extends React.Component {
+  render() {
+    return (
+      <div>
+        <button id="calcule" onClick={this.props.onCalcul}>Calculer</button>
+        <button id="initialiser" onClick={this.props.onInitialiser}>Initialiser</button>
+      </div>
+    );
+  }
+}
+
+export default Buttons;
+
+import React, { useState } from 'react';
+import PHT from './PHT';
+import TVA from './TVA';
+import Buttons from './Buttons';
+import Resultat from './Res';
+
+// ... (reste du code)
